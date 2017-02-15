@@ -1,0 +1,7 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-named": "always-where-possible",
+    "font-family-name-quotes": "always-unless-keyword"
+  }
+}

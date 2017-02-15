@@ -1,0 +1,36 @@
+{
+  "extends": "tslint:recommended",
+  "rulesDirectory": "node_modules/tslint-eslint-rules/dist/rules",
+  "rules": {
+    "array-bracket-spacing": [true, "never"],
+    "block-spacing": [true, "always"],
+    "brace-style": [true, "1tbs", { "allowSingleLine": true }],
+    "interface-name": false,
+    "no-constant-condition": true,
+    "no-control-regex": true,
+    "no-duplicate-case": true,
+    "no-empty-character-class": true,
+    "no-ex-assign": true,
+    "no-extra-boolean-cast": true,
+    "no-extra-semi": true,
+    "no-inner-declarations": true,
+    "no-invalid-regexp": true,
+    "no-irregular-whitespace": true,
+    "no-multi-spaces": true,
+    "no-regex-spaces": true,
+    "no-sparse-arrays": true,
+    "no-unexpected-multiline": true,
+    "object-curly-spacing": [true, "never"],
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "quotemark": [true, "single", "avoid-escape", "jsx-double"],
+    "ter-indent": [true, 2, {
+      "SwitchCase": 1
+    }],
+    "ter-max-len": [true, 100],
+    "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+    "use-isnan": true,
+    "valid-jsdoc": true,
+    "valid-typeof": true
+  }
+}

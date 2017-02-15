@@ -1,0 +1,25 @@
+{
+  "name": "todolist-skatejs",
+  "description": "Simple test application in SkateJS",
+  "main": "dist/index.js",
+  "authors": [
+    "Vlad Rindevich"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "skatejs",
+    "todo",
+    "todolist"
+  ],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "paper-button": "^1.0.14",
+    "paper-input": "^1.1.23",
+    "paper-menu": "^1.2.2",
+    "paper-checkbox": "^1.4.2",
+    "paper-icon-button": "^1.1.4",
+    "paper-progress": "^1.0.11",
+    "polymer": "^1.8.0"
+  }
+}
